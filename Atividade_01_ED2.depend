@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1787707008 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\cpf.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1787708234 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"prototipo.h"
+
+1787927002 c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\prototipo.h
+
+1787709216 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\valida_dados.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"prototipo.h"
+
