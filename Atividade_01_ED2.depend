@@ -1,19 +1,35 @@
 # depslib dependency file v1.0
-1787707008 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\cpf.c
+1788098964 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\files (1)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"prototipo.h"
+
+1788100733 c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\files (1)\prototipo.h
+
+1788098964 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\files (1)\valida_dados.c
 	<stdio.h>
 	<string.h>
-	<stdlib.h>
-
-1787708234 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\main.c
-	<stdio.h>
 	<stdlib.h>
 	"prototipo.h"
 
-1787927002 c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\prototipo.h
-
-1787709216 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\valida_dados.c
+1788098964 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\valida_dados.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
+	"prototipo.h"
+
+1788100733 c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\prototipo.h
+
+1788102708 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"prototipo.h"
+
+1788103339 source:c:\users\vinic\documents\desenvolvimento\estrutura_de_dados\atividade_01_ed2\respostas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 	"prototipo.h"
 

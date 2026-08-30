@@ -5,6 +5,28 @@
 
 
 
+int valida_cpf(int tamanho, char *cpf)
+{
+    /* Validacao simples: CPF deve ter 11 digitos e conter apenas numeros */
+    if(tamanho != 11)
+    {
+        return 0;
+    }
+    if(ehSoDigito(cpf))
+    {
+        /* ehSoDigito retorna 1 se encontrou caractere especial */
+        return 0;
+    }
+    for(int i = 0; i < tamanho; i++)
+    {
+        if(cpf[i] < '0' || cpf[i] > '9')
+        {
+            return 0;
+        }
+    }
+    return 1;
+}
+
 int  cepSemZero(int tamanho, char *cep)
 {
     // verifica se os 3 primeiros digitos começam em zero
@@ -30,7 +52,7 @@ int verificaCasaCEP(char *cep, int tamanho)
 
     for(int i = 0; i < tamanho; i++)
     {
-        if(cep[i] >= 0 && cep[i] <= 9)
+        if(cep[i] >= '0' && cep[i] <= '9')
         {
             estaNoRange = 1;
         }

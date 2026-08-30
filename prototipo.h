@@ -73,20 +73,23 @@ char *processaDado( char *dado);
 struct Dadocliente lerDadoCliente();
 struct DadosCidade  lerDadoCidade();
 struct DadosEndereco lerDadoEndereco();
-
-void extraiChaveEAlocaNo(ArvoreBinaria *raiz, ArvoreBinaria *NovoNo, char *chaveAtual, char *chaveNova);
+ArvoreBinaria *CriaArvore();
+char *pegaChave(ArvoreBinaria *no);
 ArvoreBinaria *criaNoCliente(struct Dadocliente cliente);
 ArvoreBinaria *criaNoCidade(struct DadosCidade cidade);
 
 int inserirArvore(ArvoreBinaria **raiz, ArvoreBinaria *NovoNo );
-ArvoreBinaria *buscar(ArvoreBinaria *raiz, char chave[50]);
-int removerNo(ArvoreBinaria **raiz, char chave[50]);
+ArvoreBinaria *buscar(ArvoreBinaria *raiz, char *chave);
+
+int ehFolha(ArvoreBinaria *raiz);
+ArvoreBinaria *temSoUmFilho(ArvoreBinaria *raiz);
+int removerNo(ArvoreBinaria **raiz, char *chave);
 
 void imprimirDadoEndereco(struct DadosEndereco info);
 void imprimirDadoCliente(struct Dadocliente info);
 void imprimirDadoCidade(struct DadosCidade info);
 void imprimirArvore(ArvoreBinaria *raiz);
-void liberaNo(ArvoreBinaria *raiz);
+void liberaArvore(ArvoreBinaria *raiz);
 
-#endif  PROTOTIPO_H_INCLUDED
+#endif // PROTOTIPO_H_INCLUDED
 
